@@ -1,0 +1,81 @@
+header{
+    flex-direction: column;
+    min-height: 100px;
+}
+
+#icons{
+    flex-direction: column;
+}
+
+#icons .circleicon{
+    margin-bottom: 26px;
+}
+
+#businesscase #showcase .photorow{
+    flex-direction: column;
+}
+
+#businesscase #showcase .photorow .photos{
+    width:97%;
+    margin: auto;
+}
+
+#blogpart{
+    flex-direction: column-reverse;
+}
+
+#blogpart .bloghalf:nth-child(2)
+{
+    min-height: 500px;
+}
+
+#team #people{
+    flex-direction: column;
+}
+
+#team #people .worker img{
+    width:70%;
+    margin-top: 40px;
+}
+
+#formsection{
+    flex-direction: column;
+}
+
+#formsection .formhalf:nth-child(1)
+{
+    min-height: 480px;
+}
+
+
+
+/*from here media query for blog.html  */
+
+.blog1{
+    flex-direction: column;
+}
+
+.blog1 .bloghalf:nth-child(1)
+{
+    min-height: 500px;
+}
+
+.blog2{
+    flex-direction: column-reverse;
+}
+
+.blog2 .bloghalf:nth-child(2)
+{
+    min-height: 500px;
+}
+
+.blog3{
+    flex-direction: column;
+}
+
+.blog3 .bloghalf:nth-child(1)
+{
+    min-height: 500px;
+}
+
+/* from here media query for post.html */

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+div{
+    /*border:3px solid black;*/
+}
+
+.navgreen{
+    color: #28a745;
+}
+
+header {
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    opacity:0.8;
+    background: #201e25;
+    color: white;
+    position: fixed;
+}
+
+
+
+header #navbig{
+    height:78%;
+    margin-left:1.5vw;
+    font-size: 31px;
+}
+
+header #navoption{
+    display: flex;
+    margin-right:1.5vw;
+    width:40vw;
+    min-width:500px;
+    display: flex;
+    height:100%;
+    align-items: flex-end;
+}
+
+header #navoption .navmenu{
+    text-align: center;
+    flex:1;
+    height:65%;
+    text-decoration: none;
+    color: white;
+}
+
+header #navoption .navmenu:hover{
+    border-bottom:3px solid  #28a745;
+    cursor: pointer;
+}
+
+#bigblogimg{
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/home/blog.jpg) no-repeat center center/cover;
+    height: 30vh;
+    font-size: 50px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogs{
+    min-height:350px;
+    display: flex;
+}
+
+.blogs .bloghalf{
+    padding:20px 4vw 40px;
+    flex:1;
+}
+
+.blogs a{
+    text-decoration: none;
+    background-color: #333;
+    padding:12px 36px;
+    color:white;
+    border-radius: 5px;
+}
+
+.blogs a:hover{
+    opacity: 0.8;
+}
+
+.blog1 .bloghalf:nth-child(1){
+    background: url(../images/blog/blog1.jpg) no-repeat center center/cover;
+}
+
+.blog1 .bloghalf.bloghalf:nth-child(2){
+    background-color: #f4f4f4;
+}
+
+.blog2 .bloghalf:nth-child(2){
+    background: url(../images/blog/blog2.jpg) no-repeat center center/cover;
+}
+
+.blog2 .bloghalf:nth-child(1){
+    background-color: #333;
+    color:white;
+}
+
+.blog2 a{
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.blog3 .bloghalf:nth-child(1){
+    background: url(../images/blog/blog3.jpg) no-repeat center center/cover;
+}
+
+.blog3 .bloghalf:nth-child(2)
+{
+    background-color: #f4f4f4;
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    padding:45px;
+    color:white;
+}
+
+footer a i{
+    color: white;
+}
+
+footer a i:hover{
+    color: #28a745;
+}
